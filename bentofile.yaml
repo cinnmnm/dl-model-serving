@@ -1,0 +1,11 @@
+service: "service:MNISTService"
+name: "mnist_classifier"
+labels:
+  owner: homework
+include:
+  - "*.py"
+  - "*.pth"
+python:
+  packages:
+    - torch
+    - torchvision
