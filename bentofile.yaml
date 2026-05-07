@@ -9,3 +9,4 @@ python:
   packages:
     - torch
     - torchvision
+  pip_args: "--index-url https://download.pytorch.org/whl/cpu"
